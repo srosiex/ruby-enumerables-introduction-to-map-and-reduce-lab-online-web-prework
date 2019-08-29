@@ -58,6 +58,15 @@ end
 return false
 end
 
+def reduce_to_all_false(array)
+  counter = 0
+  while counter < array.length do
+    return false if array[counter] #condition
+     counter += 1
+end
+return true
+end
+
 # def reduce_to_any_true(source_array)
 #   i = 0
 #   while i < source_array.length do
